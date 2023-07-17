@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <table width="550" border="1">
+        <tr>
+            <td>
+                <img src="image1.jpg" alt="foto e cv" width="120px" align="center">
+            </td>
+            <td colspan="2">
+                <h3>Personal information</h3>
+                <ul>
+                    <li>Full name: Elion Arifi</li>
+                    <li>Birthdate: 05.08.2001 (21)</li>
+                    <li>Address: Great Trnovac, Bujanovac</li>
+                    <li>Email: elion.arifi14@gmail.com</li>
+                    <li>Phone number: +381628448683</li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <a href="https://www.instagram.com/elionarifii/" target="_blank">Instagram</a>
+            </td>
+            <td>
+                <a href="https://www.facebook.com/elionarifii/" target="_blank">Facebook</a>
+            </td>
+            <td>
+                <a href="https://www.linkedin.com/in/elion-arifi" target="_blank">Linkedin</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <h3>Education</h3>
+                <ul>
+                    <li><b>High School Diploma</b>
+                        <br>
+                        <i>High school "Sezai Surroi"</i>
+                        <br>
+                        2016-2020
+                        </li>
+                    <li><b>Bachelor of Business Informatics</b>
+                        <br>
+                        <i>University of Novi Sad, Faculty of Economics in Subotica</i>
+                        <br>
+                        2016-2020</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><h3>Skills</h3></td>
+        </tr>
+        <tr valign="top">
+            <td>
+                <ul>
+                    <li>HTML&CSS</li>
+                    <li>C++</li>
+                    <li>Javascript</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Picsart</li>
+                    <li>CapCut</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Albanian
+                        <br>
+                        <i>Native language</i>
+                    </li>
+                    <li>English
+                        <br>
+                        <i>Proficient in reading and writing</i>
+                    </li>
+                    <li>German
+                        <br>
+                        <i>Proficient in reading and writing</i>
+                    </li>
+                    <li>Serbian
+                        <br>
+                        <i>Fluent</i>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <h2>Contact me</h2>
+    <input type="text"
+            name="name"
+            placeholder="First and last name"
+            minlength="5"
+            maxlength="30" 
+            required
+    />
+
+    <br>
+    <br>
+
+    <input type="email" name="email" placeholder="Email" required/>
+    
+    <br><br>
+
+    <input type="tel" name="phone" placeholder="Phone number" minlength="5" maxlength="10" pattern="[0-9]+"/>
+    
+    <br>
+    <br>
+
+    <label>Type of project</label>
+    <select name="type" required >
+        <option value="">Choose the type...</option>
+        <optgroup label="Programming">
+            <option value="HTML&CSS">HTML&CSS</option>
+            <option value="Javascript">Javascript</option>
+            <option value="C++">C++</option>
+        </optgroup>
+        <optgroup label="Design&Editing">
+            <option value="Photoshop">Photoshop</option>
+            <option value="Picsart">Picsart</option>
+            <option value="CapCut">CapCut</option>
+        </optgroup>
+    </select>
+
+    <br><br>
+
+    <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter your description"></textarea>
+    
+    <br>
+    <br>
+    
+    <label>Is your project urgent?</label>
+    <input type="radio" name="urgent" id="yes" value="Yes"/>
+    <label for="yes"> Yes</label>
+
+    <input type="radio" name="urgent" id="no" value="No"/>
+    <label for="no"> No</label>
+    
+    <br>
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+</body>
+</html>
